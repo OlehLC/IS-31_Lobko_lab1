@@ -31,6 +31,9 @@
   margin-bottom: 30px;
   border-radius: 50%;
  }
+ .logo:hover {
+  transform: scaleX(-1);
+}
  .button-container {
     display: flex;
     justify-content: center; 
