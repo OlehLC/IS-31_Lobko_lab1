@@ -1,0 +1,101 @@
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    background-color: #e1ad80;
+    height: 100vh;
+    padding: 2rem;
+  }
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 2.9rem;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Poppins', sans-serif;
+ color: #000000;
+ font-size: 1.9rem;
+ text-align: center;
+ font-size: 1.6rem;
+ line-height: 1.5; 
+  }
+   .logo {
+    float: left; 
+  margin-left: 1255px; 
+  width: 150px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+ }
+ .button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-bottom: 20px; /* Відступ між рядком і колонкою кнопок */
+}
+
+/* Стиль для кнопок */
+.btn {
+    width: 150px;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #d3c372;
+    border: 2px solid #444;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    word-wrap: break-word; 
+}
+
+/* Стиль кнопок при наведенні */
+.btn:hover {
+    background-color: #c0b061;
+}
+
+/* Стиль для колонкових кнопок */
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Стиль для кнопок у колонці */
+.btn1 {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3c372;
+    border: 2px solid #444;
+    border-radius: 25px;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    text-align: center;
+}
+
+/* Стиль для колонкових кнопок при наведенні */
+.btn1:hover {
+    background-color: #c0b061;
+}
+.text-between {
+
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 470px;
+  left:260px;
+  width: 1100px;
+}
